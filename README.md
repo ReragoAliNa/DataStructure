@@ -1,6 +1,6 @@
 ***
 
-# Data Structure & Java Collections
+# Data Structures & Java Collections
 
 A personal study repository dedicated to understanding Data Structures. This project bridges **abstract mathematical definitions** with practical **Java implementations**.
 
