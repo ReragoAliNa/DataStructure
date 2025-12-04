@@ -35,4 +35,4 @@ The content focuses heavily on the **Java Collections Framework**, providing not
 *   **Core Package:** `java.util`
 
 ## 🚀 Getting Started
-Clone the repository to review the notes and code snippets:
+Clone the repository to review the notes and code snippets
