@@ -36,6 +36,3 @@ The content focuses heavily on the **Java Collections Framework**, providing not
 
 ## 🚀 Getting Started
 Clone the repository to review the notes and code snippets:
-```bash
-git clone https://github.com/your-username/data-structure-notes.git
-```
