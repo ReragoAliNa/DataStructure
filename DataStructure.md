@@ -198,6 +198,32 @@ A `LinkedHashSet` is a collection that stores **unique elements** and **remember
 #### Java Map
 The `Map` interface is a part of the $\underline{\text{Java Collections Framework}}$ and is used to store **key value pairs**.
 
+- `HashMap` - fast and unodered
+- `TreeMap` - sorted by key
+- `LinkedHashMap` - ordered by insertion
+
+**Tip:** Use a **`Map`** when you want to associate alues with unique **keys**, like storing user IDs with names.
+
+**Common Map Methods**
+|**Method**|**Description**|
+|:-:|:-:|
+|`put()`|Adds or updates a key-value pair|
+|`get()`|Returns the value for a given key|
+|`remove()`|Removes the key and its value|
+|`containsKey()`|Checks if the map contains the key|
+|`keySet()`|Returns a set of all keys|
+
+#### Map versus. List
+|**Feature**|**List**|**Set**|**Map**|
+|:-:|:-:|:-:|:-:|
+|Duplicates allowed?|Yes|No|Keys:No; Values:Yes|
+|Stores key-value pairs?|No|No|Yes|
+|Maitains order?|Yes|No(unless using TreeSet or LinkedHashSet)|No(unless using TreeMap or LinkedHashMap)|
+
+#### Java HashMap
+
+
+
 ## $G_a$
 
 #### Java List Sorting
