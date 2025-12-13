@@ -1,7 +1,0 @@
-# .gitignore for Java
-*.class
-*.log
-.vscode/
-.idea/
-target/
-build/
