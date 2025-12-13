@@ -1,0 +1,10 @@
+{
+    "java.project.sourcePaths": [
+        ".",
+        "Projects\\设计属性",
+        "Projects\\设计一种类",
+        "Projects\\输出HelloWorld字符串",
+        "Projects\\HeroExitendsPeople\\src"
+    ],
+    "java.project.referencedLibraries": []
+}
