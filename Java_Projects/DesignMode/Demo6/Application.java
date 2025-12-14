@@ -1,8 +1,8 @@
-package app;
+package Demo6;
 
-import buttons.Button;
-import checkboxes.Checkbox;
-import factories.GUIFactory;
+import Demo6.AbstractFactory.GUIFactory;
+import Demo6.AbstractProducts.Button;
+import Demo6.AbstractProducts.Checkbox;
 
 public class Application {
     private Button button;

@@ -1,16 +1,18 @@
-import app.Application;
-import factories.*;
+package Demo6;
 
-public class Demo {
+import Demo6.AbstractFactory.GUIFactory;
+import Demo6.ConcreteFactories.MacFactory;
+import Demo6.ConcreteFactories.WinFactory;
+
+public class Config {
     private static Application configureApplication() {
         Application app;
         GUIFactory factory;
         String osName = System.getProperty("os.name").toLowerCase();
-
-        if(osName.contains("mac")) {
-            factory = new MacOSFactory();
+        if (osName.contains("mac")) {
+            factory = new MacFactory();
         } else {
-            factory = new WindowsFactory();
+            factory = new WinFactory();
         }
         app = new Application(factory);
         return app;
@@ -20,4 +22,5 @@ public class Demo {
         Application app = configureApplication();
         app.paint();
     }
+    
 }
